@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form sampl</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="index.html">Главная</a>
+		</nav>
+        <h1>Опитування СумДУ</h1>
+	</header>
+	<main>
+		<ul>
+			<li>Я піду вчиться</li>
+			<li>Я не піду</li>
+			<li>Мені не цікаво</li>
+		</ul>
+		<form action="https://formspree.io/mleplngj" method="POST">
+			<label>Відповідь
+			<input type="text" name="Відповідь" placeholder="Відповідь" required>
+            </label>
+			<br>
+			<label>Email
+			<input type="email" name="Email" placeholder="Email" required>
+            </label>
+			<br>
+			<label>Стать:
+            </label>
+			<label>
+            <input type="radio" name="Стать" value="Студент">Студент
+            </label>
+			<label>
+            <input type="radio" name="Стать" value="Студентка">Студентка
+            </label>
+			<label>
+            <input type="radio" name="Стать" value="Інші">Інші
+            </label>
+			<br>
+			<input type="submit">
+			<input type="reset">
+
+		</form>
+	</main>
+</body>
+
+</html>
